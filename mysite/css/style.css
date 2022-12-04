@@ -1,0 +1,125 @@
+/* div {
+   
+    width: 100px;
+    margin: 15px;
+    padding: 15px;
+} */
+/*
+h2 {
+    color: blue;
+}
+.redBlock {
+background-color: red;
+}
+.blueBlock {
+    background-color:blue;
+    }
+.purpleBlock {
+background-color: purple;
+}
+* {
+    margin: 0;
+    padding: 0;
+} 
+#header {
+    height: 80px;
+    background-color: #ccc;
+    width: 100%;
+    padding: 15px;
+}
+#content {
+    height: 80px;
+    background-color: #ccc;
+    width: 100%;
+    padding: 15px;
+    margin-top: 5px;
+}
+#footer {
+    height: 80px;
+    background-color: #ccc;
+    width: 100%;
+    padding: 15px;
+    margin-top: 5px;
+}
+h1,h2,h3 {
+    text-decoration: underline;
+    color: red;
+}
+#main p{
+    color: green;
+    font-size: 15px;
+}
+
+#footernew p:nth-child(2){
+    color: red;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+a:link {
+    color: blue;
+    text-decoration: none;
+}
+a:visited {
+    color: pink;
+    text-decoration: none;
+}
+.hover {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+.hover:hover{
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+}
+p {
+    line-height: 100%;
+    text-align: center;
+    text-indent: 35px; /* აბზაცი */
+
+
+
+ .row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.list_container {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.list_container li {
+    margin-left: 15px;
+
+}
+
+.nav_container {
+    width: 500px;
+}
+
+.login {
+    width: 102px;
+    height: 51px;
+    border: 1px solid #6c63ff;
+    border-radius: 2px;
+    background-color: transparent;
+    color: #6c63ff;
+}
+
+.get_start {
+    width: 102px;
+    height: 51px;
+    border-radius: 2px;
+    border: none;
+    background-color: #6c63ff;
+    color: #ffffff;
+}
+
+html{
+    scroll-behavior: smooth;
+}
