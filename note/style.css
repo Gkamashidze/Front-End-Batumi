@@ -1,0 +1,18 @@
+p.center {
+    text-align: center;
+    color: red;
+  }
+  /* In this example only <p> elements with class="center" will be red and center-aligned:  */
+
+  * {
+    text-align: center;
+    color: blue;
+  }
+  /* The CSS rule below will affect every HTML element on the page: */ 
+
+  h1, h2, p {
+    text-align: center;
+    color: yellow;
+  }
+  /* The grouping selector selects all the HTML elements with the same style definitions.
+  In this example we have grouped the selectors from the code above:  */
