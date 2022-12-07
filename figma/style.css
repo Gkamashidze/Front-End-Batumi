@@ -57,3 +57,35 @@ li.main_word {
     border: 1px solid #6C63FF;
     border-radius: 2px;
 }
+
+.main_header {
+    font-size: 86px;
+}
+
+.learn_more {
+    font-family: 'Open Sans';
+    color: #2F2E41;
+    width: 92px;
+    height: 20px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: -1px;
+}
+
+.lets_talk {
+    font-family: 'Open Sans';
+    color: white;
+    font-size: 16px;
+    width: 186px;
+height: 54px;
+    background: #6C63FF;
+    border: 1px solid #6C63FF;
+border-radius: 2px;
+}
+
+.ftr_container {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
