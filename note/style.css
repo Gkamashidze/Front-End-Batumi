@@ -1,18 +1,59 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* The CSS rule below will affect every HTML element on the page: */ 
+
 p.center {
     text-align: center;
     color: red;
-  }
+}
   /* In this example only <p> elements with class="center" will be red and center-aligned:  */
 
-  * {
-    text-align: center;
-    color: blue;
-  }
-  /* The CSS rule below will affect every HTML element on the page: */ 
-
-  h1, h2, p {
+h1, h2, p {
     text-align: center;
     color: yellow;
-  }
+}
   /* The grouping selector selects all the HTML elements with the same style definitions.
   In this example we have grouped the selectors from the code above:  */
+
+body {
+    background-image: url(/mysite/src-img/heart.jpg);
+    background-repeat: repeat-x;
+    background-repeat: no-repeat;
+    background-position: right top;
+    background-attachment: fixed;
+    background-attachment: scroll;
+}
+
+  /* If the image above is repeated only horizontally (background-repeat: repeat-x;), the background will look better:
+  To repeat an image vertically, set background-repeat: repeat-y; */
+  /* The background-position property is used to specify the position of the background image. */
+  /* the background image should be fixed: */
+  /* the background image should scroll with the rest of the page */
+
+
+
+
+
+
+
+
+
+
+
+
+
+.first {
+  background-color: green;
+  opacity: 0.3;
+}
+h1.fh {
+  color: yellow;
+}
+
+
+/* 
+p.bckimg {
+  color: black;
+} */
